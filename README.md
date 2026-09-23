@@ -103,10 +103,7 @@ Frequency × Severity
 
 
 نمونه داشبورد:
-
-مشاهده در پوشه:
-
-`Dashboard`
+[مشاهده داشبورد](Dashboard)
 
 
 ---
