@@ -46,9 +46,40 @@ CASdatasets R package – freMTPL2freq and freMTPL2sev datasets.
 - ویژگی‌های جغرافیایی
 - تعداد خسارت‌ها
 - مبلغ خسارت‌ها
-- میزان Exposure
+- میزانExposure
 
+## معرفی داده‌ها (Dataset)
 
+**نام دیتاست:**  
+French Motor Third-Party Liability (freMTPL2)
+
+**منبع داده:**  
+CASdatasets R package (freMTPL2freq و freMTPL2sev)
+
+**نوع داده:**  
+داده‌های بیمه خودرو (Motor Third-Party Liability Insurance)
+
+**تعداد رکوردها:**  
+678,013 بیمه‌نامه
+
+**متغیرهای اصلی:**
+
+- Exposure: میزان در معرض ریسک بودن بیمه‌نامه
+- ClaimNb: تعداد خسارت‌ها
+- Total Claim Amount: مبلغ کل خسارت‌ها
+- VehPower: قدرت خودرو
+- VehAge: سن خودرو
+- DrivAge: سن راننده
+- BonusMalus: شاخص ریسک راننده
+- VehBrand: برند خودرو
+- VehGas: نوع سوخت
+- Area و Region: اطلاعات جغرافیایی
+
+**هدف تحلیل:**
+
+- مدل‌سازی تعداد خسارت‌ها (Frequency)
+- مدل‌سازی شدت خسارت‌ها (Severity)
+- محاسبه Expected Loss برای هر بیمه‌نامه
 ---
 
 # روش انجام پروژه (Methodology)
