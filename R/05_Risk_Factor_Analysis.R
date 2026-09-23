@@ -32,10 +32,22 @@ sev_importance <- drop1(
 
 sev_importance
 
+# =====================================
+# 3. Model Coefficients and Direction
+# =====================================
 
+# Frequency model coefficients
+summary(poisson_model)
+
+# Relative effects for Poisson model
+exp(coef(poisson_model))
+
+
+# Severity model coefficients
+summary(lognormal_model)
 
 # =====================================
-# 3. Expected Loss Analysis
+# 4. Expected Loss Analysis
 # =====================================
 
 # Average expected loss by risk factor levels
