@@ -14,42 +14,16 @@
 # داده‌ها (Dataset)
 
 داده استفاده‌شده مربوط به بیمه مسئولیت مدنی خودرو (Motor Third-Party Liability) است.
-
-# داده‌ها (Dataset)
-
 داده استفاده‌شده در این پروژه، دیتاست عمومی **French Motor Third-Party Liability (freMTPL2)** است که برای تحلیل ریسک بیمه خودرو ارائه شده است.
 
 این دیتاست شامل اطلاعات مربوط به بیمه‌نامه‌های خودرو، ویژگی‌های ریسک بیمه‌گذار و خودرو، Exposure، تعداد خسارت‌ها (Claim Count) و مبلغ خسارت‌ها (Claim Amount) است.
-
-متغیرهای اصلی استفاده‌شده در پروژه شامل:
-
-- Exposure: میزان در معرض ریسک بودن بیمه‌نامه
-- ClaimNb: تعداد خسارت‌های ثبت‌شده
-- Total Claim Amount: مبلغ کل خسارت‌ها
-- Vehicle characteristics: ویژگی‌های خودرو مانند قدرت، سن و برند
-- Driver characteristics: ویژگی‌های راننده مانند سن و Bonus-Malus
-- Geographic characteristics: اطلاعات منطقه‌ای
-
 
 منبع داده:
 
 Dua, D. and Graff, C. (2019).  
 UCI Machine Learning Repository: French Motor Third-Party Liability Claims Dataset.
 Dataset source:
-CASdatasets R package – freMTPL2freq and freMTPL2sev datasets.
-
-
-ویژگی‌های اصلی داده شامل:
-
-- مشخصات خودرو
-- مشخصات راننده
-- ویژگی‌های جغرافیایی
-- تعداد خسارت‌ها
-- مبلغ خسارت‌ها
-- میزانExposure
-
-## معرفی داده‌ها (Dataset)
-
+CASdatasets R package – freMTPL2freq and freMTPL2sev dataset
 **نام دیتاست:**  
 French Motor Third-Party Liability (freMTPL2)
 
